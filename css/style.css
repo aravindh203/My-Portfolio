@@ -18,6 +18,11 @@
 	display: none;
 	flex-direction: column;
 }
+.menu-list{
+	padding: 6px 10px !important;
+	background-color: white;
+	border-radius: 10px;
+}
 .nav-list a{
 	color: #ffb100;
 	font-weight: bold;
@@ -271,9 +276,6 @@ h1{
 .work-image:hover .work-color{
 	opacity:1;
 }
-.work-hover h4{
-	padding:10px 0px;
-}
 .work-hover a{
 	color:white;
 	font-size:25px;
@@ -325,4 +327,8 @@ h1{
 }
 a{
 	cursor: pointer;
+	padding: 10px;
+}
+.owl-nav.disabled+.owl-dots {
+    margin-top: 20px !important;
 }
