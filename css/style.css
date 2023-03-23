@@ -52,7 +52,7 @@
 	font-size: 25px;
 }
 .home{
-	height:100vh;
+	height:100vh !important;
 	background:url(https://img.freepik.com/free-vector/flat-geometric-background_23-2148974368.jpg?w=740&t=st=1668071317~exp=1668071917~hmac=21b336a16d5aaa0089bf366accf1bd5367f78bf8cd615f78cc1c972fd8147dd1);
 	background-size:cover;
 	background-repeat: no-repeat;
@@ -94,9 +94,9 @@
 }
 .about-image::before{
 	content: "";
-    top: -27px;
-    left: -40px;
-    width: 285px;
+    top: -6%;
+    left: -10%;
+    width: 79%;
     height: 110%;
     position: absolute;
     border: 5px solid #ffb100;
